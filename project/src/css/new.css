@@ -1,0 +1,159 @@
+.header_main{
+    font-family: Segoe Script;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container_main{
+    padding: 60px 15px 0;
+}
+
+.bar_background{
+    background-image: url("C::\Users\User\PhpstormProjects\project\src\img\navbar_back.png");
+}
+
+.row_main{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container1 {
+    max-width: 720px;
+}
+
+.color1{
+    color: #e9967a;
+    border-color: #e9967a;
+    font-weight: bold;
+}
+
+.color2{
+    color: #2E8B57;
+    border-color: #2E8B57;
+    font-weight:bold;
+}
+
+.color3{
+    color: #4169E1;
+    border-color: #4169E1;
+    font-weight:bold;
+}
+
+.color4{
+    color: #efa2a9;
+}
+
+.search_block{
+    align-content: center;
+    display: inline;
+}
+
+.search_line{
+    widtch: 80%;
+    height: 35px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #e9967a;
+    background-color: #00000000;
+    background-image: none;
+    border: 1px solid #e9967a;
+}
+
+.row-page{
+    margin: 0px 0px 0px 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.image-container{
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.row-page .image-container:before{
+    content: "";
+    display: block;
+}
+
+*:before, *:after{
+    box-sizing: border-box;
+}
+
+.image-container img{
+    vertical-align: middle;
+    border: 0;
+}
+
+.image-style{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.title{
+    font-family: Segoe Script;
+    width: 300px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.big-title {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.block {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.block:hover{
+    transform: scale(1.1);
+}
+
+.container_form{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form_signin{
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/*img:hover{
+    transform: scale(1.1);
+}*/
+
+/*.image-section:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}*/
+
